@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: docker:17.06.0-git
+      - image: scholzj/circleci-centos-golang:latest
     steps:
       - setup_remote_docker
       - checkout
